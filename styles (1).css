@@ -1,0 +1,51 @@
+
+body {
+  font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #f5f5f5;
+}
+.login-btn {
+  padding: 10px 15px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.status-list {
+  list-style: none;
+  padding: 0;
+}
+.status-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.status-item.green {
+  background-color: #d4edda;
+  color: #155724;
+}
+.status-item.red {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+.admin-tools {
+  margin-top: 20px;
+}
+.form-control {
+  margin-bottom: 10px;
+}
